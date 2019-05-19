@@ -6,13 +6,12 @@ function BoardMember(name, homeState, training){
   this.veto = function(){
     return 'No, I must disagree'
   }
-  this.approve = function(){
-    return 'You can do that!'
-  }
-  this.doCharity = function(){
-    return "I like to help people."
-  }
+  this.approve = function()
 }
+  BoardMember.prototype.approve = function() {
+    return 'You can do that!'
+  };
+  
   BoardMember.prototype.doCharity = function() {
     return "I like to help people."
   };
