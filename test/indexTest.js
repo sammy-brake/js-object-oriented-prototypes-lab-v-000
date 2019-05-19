@@ -1,6 +1,6 @@
 const expect = chai.expect;
 
-describe('boardMembers', function() {
+describe('boardMember', function() {
   let polishedBoardMember;
   let backSlappingGene;
   before(() => {
