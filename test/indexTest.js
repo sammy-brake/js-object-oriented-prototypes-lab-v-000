@@ -1,12 +1,12 @@
 const expect = chai.expect;
 
-describe('boardMember', function() {
-  let polishedBoardMember;
-  let backSlappingGene;
-  before(() => {
-    polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
-    backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business")
-  })
+// describe('boardMember', function() {
+//   let polishedBoardMember;
+//   let backSlappingGene;
+//   before(() => {
+//     polishedBoardMember = new BoardMember("Mr. Polished", "New York", "law")
+//     backSlappingGene = new BoardMember("Mr. Gene", "Delaware", "business")
+//   })
 
   describe('boardMember Constructor Function', function() {
     it('can create a BoardMember with a name, home state, and training', function() {
